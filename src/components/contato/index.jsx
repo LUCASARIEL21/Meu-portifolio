@@ -1,4 +1,4 @@
-import { Phone } from "../phone"
+import { Phone } from "../cell"
 import linkedin from "../../assets/imgs/linkedin.svg"
 import zap from "../../assets/imgs/zap.svg"
 import insta from "../../assets/imgs/insta.svg"

@@ -13,16 +13,16 @@ export const Curriculo = () => {
       </S.Summary>
       <S.Info>
         <S.LInfo>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Birthday: 04 February 2000 <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Website: <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Degree: Bachelor <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>City: João Pessoa <hr style={{ width: "250px" }} /></p>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Birthday: 04 February 2000 <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Website: <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Degree: Bachelor <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>City: João Pessoa <hr style={{ width: "250px" }} /></h5>
         </S.LInfo>
         <S.RInfo>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Age: 23 <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Email: lukasbcunha@gmail.com <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Phone: +55 (083) 98837-8397 <hr style={{ width: "250px" }} /></p>
-          <p style={{ margin: "10px", fontWeight: "bold" }}>Job: IT technician <hr style={{ width: "250px" }} /></p>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Age: 23 <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Email: lukasbcunha@gmail.com <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Phone: +55 (083) 98837-8397 <hr style={{ width: "250px" }} /></h5>
+          <h5 style={{ margin: "10px", fontWeight: "bold" }}>Job: IT technician <hr style={{ width: "250px" }} /></h5>
         </S.RInfo>
       </S.Info>
       <S.Container>

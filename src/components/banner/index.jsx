@@ -50,7 +50,7 @@ export const Banner = () => {
       <S.Container>
         <S.Left>
           <S.Title>Bem-Vindo ao meu Portifólio</S.Title>
-          <S.txtapres>{`Olá, sou Lucas, e sou`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Técnico de TI", "Gamer" ]'><span className="wrap">{text}</span></span></S.txtapres>
+          <S.txtapres>{`Olá, sou Lucas, e sou`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Técnico de TI", "Gamer" ]'><span className="wrap">{text}</span></span></S.txtapres>
           <S.Desc>
           Este é o meu portifólio onde eu vou falar um pouco sobre mim e minha habilidades profissionais, Hobbies, Futuros projetos e Projetos já feitos.
           </S.Desc>
