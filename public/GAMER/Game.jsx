@@ -11,7 +11,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('../../../../public/GAMER/game.gltf')
+  const { nodes, materials } = useGLTF('./game.gltf')
   return (
     <group {...props} dispose={null}>
       <group position={[1.22, 0, 0]} rotation={[0, -0.02, 0]}>

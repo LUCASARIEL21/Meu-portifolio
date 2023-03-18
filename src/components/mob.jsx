@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import React, { Suspense } from "react"
-import Model from "../assets/3D/PHONE/Phone"
+import Model from "../../public/CONTACT/Contact"
 
 export const Mob = () => {
   return (

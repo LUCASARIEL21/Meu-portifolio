@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import React, { Suspense } from "react"
-import Model from "../assets/3D/WEB/Web"
+import Model from "../../public/WEB/Web"
 
 export const WebDesign = () => {
   return (

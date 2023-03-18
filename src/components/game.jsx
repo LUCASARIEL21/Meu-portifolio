@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import React, { Suspense } from "react"
-import Model from "../assets/3D/GAMER/Game"
+import Model from "../../public/GAMER/Game"
 
 export const Gamer = () => {
 
