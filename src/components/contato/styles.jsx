@@ -14,17 +14,15 @@ export const Section = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 1400px;
   display: flex;
   justify-content: space-between;
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-    flex-direction: column;
-  }
+  width: 100%;
+  flex-direction: column;
 `;
 
 export const Left = styled.div`
-  flex: 1;
+  display: flex;
+  height: 250px;
 `;
 
 export const Right = styled.div`
@@ -34,26 +32,20 @@ export const Right = styled.div`
   margin: 10px;
   align-items: center;
   justify-content: center;
-  @media only screen and (max-width: 768px) {
-    padding: 20px;
-    justify-content: center;
-  }
+  padding: 20px;
+  justify-content: center;
 `;
 
 export const Title = styled.h3`
     font-size: 74px;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-  }
+    text-align: center;
 `;
 
 export const Desc = styled.p`
     font-size: 24px;
     color: lightgray;
-    @media only screen and (max-width: 768px) {
-        padding: 20px;
-        text-align: center;
-  }
+    padding: 20px;
+    text-align: center;
 `;
 
 export const Icons = styled.div`

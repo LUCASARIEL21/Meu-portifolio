@@ -1,15 +1,16 @@
 import styled from "styled-components"
 
 export const Section = styled.div`
-    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-snap-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #80d0c7;
-    background-image: linear-gradient(180deg, #80d0c7 0%, #6284FF 50%, #FF0000 100%);
-
+    background-image: linear-gradient(180deg, #80d0c7 0%, #6284FF 50%, #FF3000 100%);
 `;
 
 export const Title = styled.h1`
@@ -26,6 +27,7 @@ export const Info = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 `;
 
 export const LInfo = styled.div`
@@ -49,6 +51,7 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 `;
 
 export const Left = styled.div`
