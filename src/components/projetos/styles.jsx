@@ -5,11 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    scroll-snap-align: center;
-    background-color: #ff0000;
-    background-image: linear-gradient(225deg, #ff0000 0%, #F7CE68 100%);
-
+    padding: 10px;
 `;
 
 export const Title = styled.div`

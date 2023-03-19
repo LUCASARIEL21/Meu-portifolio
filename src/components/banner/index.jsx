@@ -1,4 +1,4 @@
-import { Navbar } from "../navbar"
+import { NavBar } from "../navbar"
 import { useState, useEffect } from "react";
 import programador from "../../assets/imgs/programador.png"
 import * as S from "./styles"
@@ -46,7 +46,7 @@ export const Banner = () => {
   }
   return (
     <S.Section id="home">
-      <Navbar />
+      <NavBar />
       <S.Container>
         <S.Left>
           <S.Title>Bem-Vindo ao meu Portifólio</S.Title>

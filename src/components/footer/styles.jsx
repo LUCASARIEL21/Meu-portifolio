@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const container = styled.div`
-    scroll-snap-align: center;
     max-height: 200px;
     max-width: 100%;
     display: column;

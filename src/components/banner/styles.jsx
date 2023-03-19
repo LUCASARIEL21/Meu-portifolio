@@ -1,35 +1,29 @@
 import styled from "styled-components"
 
 export const Section = styled.div`
-  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-  height: 100vh;
 `;
 
 export const Container = styled.div`
-  height: 100%;
-  scroll-snap-align: center;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Left = styled.div`
-  flex: 2;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 10px;
   gap: 20px;
-  align-items: center;
 `;
 
 export const Title = styled.h1`
@@ -52,16 +46,15 @@ export const Desc = styled.p`
 `;
 
 export const Right = styled.div`
-  flex: 3;
-  position: relative;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Img = styled.img`
   width: 800px;
   height: 500px;
   object-fit: contain;
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;

@@ -6,7 +6,7 @@ import * as S from "./styles"
 
 export const Contato = () => {
   return (
-    <S.Section>
+    <S.Section id="contato">
       <S.Container>
         <S.Left>
           <Phone />

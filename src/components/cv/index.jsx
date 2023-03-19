@@ -2,7 +2,7 @@ import * as S from "./styles"
 
 export const Curriculo = () => {
   return (
-    <S.Section>
+    <S.Section id="cv">
       <S.Title>Lucas Ariel</S.Title>
       <S.Summary>
         Formado em Ciência da Computação na FPB. Busco sempre

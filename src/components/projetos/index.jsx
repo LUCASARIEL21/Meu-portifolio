@@ -28,11 +28,14 @@ export const Projetos = () => {
           textAlign: "center",
           backgroundColor: "white",
           borderRadius: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
           <Card.Img variant="top" src={calculadora} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Calculadora web</Card.Title>
+          <Card.Body style={{ padding: "10px" }}>
+            <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Calculadora web</Card.Title>
+            <Card.Text>Projeto feito para estudo de HTML, CSS, JavaScript e o framework REACTJS. Este projeto só poder ser visualizado pelo seu repositorio no meu GITHUB.</Card.Text>
           </Card.Body>
         </Card>
         <Card style={{
@@ -43,11 +46,14 @@ export const Projetos = () => {
           margin: "10px",
           backgroundColor: "white",
           borderRadius: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
           <Card.Img variant="top" src={olx} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Projeto do TCC</Card.Title>
+          <Card.Body style={{ padding: "10px" }}>
+            <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Projeto do TCC</Card.Title>
+            <Card.Text>Projeto feito para o TCC da minha graduação, feito utilizando o framework REACTJS e suas bibliotecas para o front-end do projeto, e foi utilizado NODE.JS e PostgreSQL para fazer o back-end do projeto.</Card.Text>
           </Card.Body>
         </Card>
         <Card style={{
@@ -57,11 +63,14 @@ export const Projetos = () => {
           textAlign: "center",
           backgroundColor: "white",
           borderRadius: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
           <Card.Img variant="top" src={relogio} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Relogio digital</Card.Title>
+          <Card.Body style={{ padding: "10px" }}>
+            <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Relogio digital</Card.Title>
+            <Card.Text>Projeto feito para estudo de HTML, CSS, JavaScript e o framework REACTJS. Este projeto só poder ser visualizado pelo seu repositorio no meu GITHUB.</Card.Text>
           </Card.Body>
         </Card>
       </CardGroup >
@@ -79,11 +88,14 @@ export const Projetos = () => {
           textAlign: "center",
           backgroundColor: "white",
           borderRadius: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
           <Card.Img variant="top" src={system} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Sistema de login</Card.Title>
+          <Card.Body style={{ padding: "10px" }}>
+            <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Sistema de login</Card.Title>
+            <Card.Text>Projeto feito para estudo de HTML, CSS, JavaScript e o framework REACTJS. Este projeto só poder ser visualizado pelo seu repositorio no meu GITHUB.</Card.Text>
           </Card.Body>
         </Card>
         <Card style={{
@@ -94,12 +106,18 @@ export const Projetos = () => {
           backgroundColor: "white",
           borderRadius: "10px",
           margin: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          cursor: "pointer",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
-          <Card.Img variant="top" src={travel} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Landing Page de Viagens</Card.Title>
-          </Card.Body>
+          <a href='https://viagensbr.netlify.app' style={{textDecoration: "none"}}>
+            <Card.Img variant="top" src={travel} />
+            <Card.Body style={{ padding: "10px" }}>
+              <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Landing Page de Viagens</Card.Title>
+              <Card.Text>Projeto de pontos turisticos de cada estado do Brasil. Este projeto foi feito utilizando o framework REACTJS, ele esta online e pode ser acessado ao clicar neste CARD.</Card.Text>
+            </Card.Body>
+          </a>
         </Card>
         <Card style={{
           display: "flex",
@@ -108,11 +126,14 @@ export const Projetos = () => {
           textAlign: "center",
           backgroundColor: "white",
           borderRadius: "10px",
-          justifyContent: "center"
+          justifyContent: "center",
+          maxHeight: "400px",
+          maxWidth: "300px"
         }}>
           <Card.Img variant="top" src={future} />
-          <Card.Body style={{padding: "10px"}}>
-            <Card.Title>Projeto Futuro</Card.Title>
+          <Card.Body style={{ padding: "10px" }}>
+            <Card.Title style={{ marginBottom: "10px", fontWeight: "bold" }}>Projeto Futuro</Card.Title>
+            <Card.Text>Projeto em desenvolvimento, é um projeto de um Blog com informações sobre Tecnologia e Cultura POP. Em breve estara disponivel para ser acessado.</Card.Text>
           </Card.Body>
         </Card>
       </CardGroup>
