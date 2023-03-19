@@ -6,7 +6,7 @@ import Model from "../assets/Pc"
 export const Tech = () => {
   return (
     <>
-      <Canvas>
+      <Canvas style={{ height: "500px", width: "100%" }}>
         <Suspense fallback={null}>
           <Stage environment="city" intensity={0.6}>
             <Model />

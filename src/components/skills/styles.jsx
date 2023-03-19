@@ -34,13 +34,15 @@ export const Container = styled.div`
 export const Left = styled.div`
   display: flex;
   align-items: center;
+  padding: 10px;
   margin: 10px;
   @media only screen and (max-width: 768px) {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
   }
 `;
 
@@ -54,16 +56,20 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  font-size: 90px;
+  text-align: center;
+  font-size: 70px;
   font-weight: bold;
   cursor: pointer;
   color: lightgray;
   -webkit-text-stroke: 2px black;
-  position: relative;
 `;
 
 export const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+  @media only screen and (max-width: 768px) {
+    width: 1000%;
+  }
 `;
