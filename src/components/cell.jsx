@@ -6,7 +6,7 @@ import Model from "../assets/contact"
 export const Phone = () => {
   return (
     <>
-      <Canvas style={{maxHeight: "500px", maxWidth: "500px"}}>
+      <Canvas>
         <Suspense fallback={null}>
           <Stage environment="city" intensity={0.6}>
             <Model />
