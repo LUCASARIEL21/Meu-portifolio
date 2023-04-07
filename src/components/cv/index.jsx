@@ -31,8 +31,8 @@ export const Curriculo = () => {
           <h3 style={{ margin: "10px" }}>Mederi Saúde</h3>
           <p style={{ margin: "5px"}}>Técnico de TI</p>
           <p style={{ margin: "5px"}}>João Pessoa, Paraíba, Brasil</p>
-          <p style={{ margin: "5px"}}>Presto suporte técnico aos colaboradores da empresa de forma presencial e remota.</p>
-          <p style={{ margin: "5px"}}>fevereiro de 2023 - Present (2 meses)</p>
+          <p style={{ margin: "5px"}}>Presto suporte técnico N1 aos colaboradores da empresa de forma presencial e remota.</p>
+          <p style={{ margin: "5px"}}>fevereiro de 2023 - Present</p>
           <h3 style={{ margin: "10px" }}>Geap Autogestão em Saúde</h3>
           <p style={{ margin: "5px"}}>Estagiário de TI</p>
           <p style={{ margin: "5px"}}>março de 2021 - dezembro de 2022 (1 ano 10 meses)</p>
